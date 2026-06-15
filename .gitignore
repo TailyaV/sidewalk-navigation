@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE files
+.idea/
+.vscode/
+
+# Data and videos
+data/
+outputs/
+
+# Models and training outputs
+models/
+runs/
+*.pt
+*.pth
+*.onnx
+*_openvino_model/
+
+# OS files
+.DS_Store
+Thumbs.db
