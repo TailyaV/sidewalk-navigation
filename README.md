@@ -192,4 +192,4 @@ outputs/videos/result.mp4
 
 ## Authors
 - Sagi Rahat
-- Taliy Levin 
+- Taliya Levin 
