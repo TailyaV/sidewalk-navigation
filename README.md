@@ -13,6 +13,16 @@ The goal of the system is to analyze a street or sidewalk video in real time and
 - Choosing a safe walking direction.
 - Drawing a stable arrow that guides the user to continue straight or bypass obstacles safely.
 
+## Project Assets
+
+The source code is available in this GitHub repository.
+Large files such as trained models, raw videos, datasets, and example outputs are stored separately.
+Download the project assets from:
+
+[Download project assets from Google Drive](https://drive.google.com/file/d/1muWf4_AWb5v5-zwgXqI555DEEm6Dscn1/view?usp=drive_link)
+
+After downloading, extract the ZIP file into the project root directory.
+
 ## Pipeline
 
 The general processing pipeline is:
