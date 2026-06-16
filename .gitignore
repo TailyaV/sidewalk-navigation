@@ -22,6 +22,7 @@ runs/
 *.pth
 *.onnx
 *_openvino_model/
+*.zip
 
 # OS files
 .DS_Store

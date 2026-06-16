@@ -9,6 +9,7 @@ from PIL import Image
 from transformers import SegformerForSemanticSegmentation, SegformerImageProcessor
 
 """This script runs the real-time sidewalk navigation system: it segments sidewalks, detects obstacles, and draws a stable walking direction arrow."""
+#running command -  python src/realtime_app.py --source data/raw_videos/test_sidewalk_3.mp4 --sidewalk-model models/sidewalk_segformer/best --yolo-weights models/obstacles_yolo/best_openvino_model --output outputs/videos/result_live_test_3.mp4 --width 640 --height 360 --seg-every 3 --live-sim
 
 def load_sidewalk_model(model_dir):
     #Load the trained SegFormer sidewalk segmentation model.
